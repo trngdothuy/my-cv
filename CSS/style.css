@@ -1,0 +1,224 @@
+* {
+  /* font-family: 'Indie Flower', cursive; */
+  font-size: 25px;
+  /* padding-left: 5px; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Andika', sans-serif */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Roboto Mono', monospace;
+}  
+
+a {
+  color:rgb(46, 46, 111);
+  text-decoration: none;
+  font-style: italic;
+  text-shadow: 0px 1px black;
+}
+
+a:hover {
+  color: rgb(211, 70, 185);
+}
+
+
+body {
+  /* background-color: #DAEAF1; */
+  /* background-image: url("https://i.pinimg.com/564x/06/69/38/066938f633a1394737d55392df4196e4.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover; */
+  width: 1400px;
+  height: 3200px;
+  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1); */
+  /* background: linear-gradient(0.25turn,#68686a, #e5e5e7); */
+  /* background: linear-gradient(
+    0.5turn
+    , #ffe0e0,#ffbbbb); */
+    background: linear-gradient(
+      0.5turn
+      , #BFEAF5,#82AAE3);
+    
+}
+
+h1 {
+  /* color: #EF9F9F; */
+  font-size: 45px;
+  /* color: #DAEAF1; */
+  /* color: #e0d7ce; */
+  color: #594545;
+  margin-bottom: 3px;
+  text-shadow: 2px 1px #EF9F9F;
+}
+.heading-text {
+  /* color: #9E7676; */
+  /* color: #873e23; */
+  font-size: 40px;
+  display: flex;
+  justify-content: left;
+  /* text-decoration: wavy underline 0.4px #EA047E; */
+  padding-bottom: 25px;
+  /* padding-left: 5px; */
+}
+hr {
+  margin-top: 20px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color:  #9E7676;
+  border-width: 8px;
+  width: 10%;
+}
+
+  
+.centered-div {
+  margin-bottom: 30px;
+  /* margin: 50px 250px; */
+  /* display: flex;
+  justify-content: center;
+  line-height: 30px; */
+}
+
+.head {
+  /* background-color: #9E7676; */
+  /* border-radius: 20px;
+  margin-left: 30px; */
+}
+
+.white-text {
+  /* color: #e0d7ce; */
+  /* color: #594545;
+  line-height: 40px; */
+}
+
+/* .bordered-table > th, td {
+  border: 1px solid #9E7676;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.bordered-table {
+  margin-bottom: 30px;
+} */
+
+.header-box > th, td {
+  /* border: none; */
+}
+
+/* .body-2-columns {
+  display: flex;
+  gap: 20px;
+  margin: 0 30px;
+  /* flex-direction: row; */
+
+
+.main-body {
+  margin: 5%;
+  width: 90%;
+  height: 97%;
+  /* border: 1px solid #3f87a6; */
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  /* background-color: #e8e8ea; */
+
+  width: 50%;
+  height: 100%;
+  /* background-color: #ffecec; */
+  background-color: #BAD7E9;
+} 
+
+.right-side {
+  /* background-color: #f2f2f4; */
+  width: 50%;
+  height: 100%;
+  /* background-color: #fffbfb; */
+  background-color: #ebf2f4c7;
+} 
+
+.box-1 {
+  height: 30%;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: row;
+}
+
+.box-1-right {
+  /* height: 30%; */
+  display: flex;
+  flex-direction: column;
+  padding: 222px 20px 46px 35px;
+  align-self: right;
+  text-align: left;
+}
+
+.resume {
+  width: 30%;
+  /* background-color: yellow; */
+  /* color: #873e23; */
+  writing-mode: vertical-lr;
+  font-size: 100px;
+  font-family: 'Sora', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  transform: rotate(180deg);
+  padding-left: 10px;
+  /* transform-origin: 0 0;
+  transform: rotate(90deg); */
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  color: red;
+}
+
+.avt {
+  width: 70%;
+  background-color: green;
+   background-image: url("https://res.cloudinary.com/dm63jyidg/image/upload/v1672883416/portfolio/gi7kdahadxluiogwuqvr.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-with-padding {
+  padding: 30px;
+}
+
+.box-with-padding-less-top {
+  padding: 20px 30px 30px 30px;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.two-column-item {
+  /* width: 30%; */
+  /* display: flex;
+  justify-content: center; */
+  display: flex;
+  line-height: 55px;
+  /* padding-left: 40px; */
+}
+
+.centered-text {
+  display: flex;
+    /* justify-content: center; */
+}
+
+td {
+  padding-right: 20px;
+}
+
+.icon-img {
+  width: 50px;
+  padding-right: 20px;
+}
+
+
