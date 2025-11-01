@@ -202,7 +202,7 @@ hr {
 
 .box-with-padding-less-top {
   padding: 3px 50px 25px 46px;
-  margin-top: 68px;
+  margin-top: 13px;
 }
 
 .two-column {
@@ -243,3 +243,16 @@ td {
   color: rgb(41 41 135);
 }
 
+.projects-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Adjust as necessary */
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  /* background-color: #f9f9f9; */
+}
+
+.projects-column {
+  flex: 0 0 45%; /* Each column takes 45% of the container's width */
+}
