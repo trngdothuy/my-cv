@@ -12,7 +12,7 @@
 a {
   color: rgb(41 41 135);
   text-decoration: none;
-  font-style: italic;
+  font-style: italic underline;
   text-shadow: 0px 1px black;
 }
 
