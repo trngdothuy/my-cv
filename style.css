@@ -164,7 +164,7 @@ hr {
   padding: 45px 16px 241px 38px;  
   align-self: right;
   text-align: left;
-  margin-top: 47px;
+  margin-top: 12px;
 }
 
 .resume {
@@ -186,7 +186,7 @@ hr {
   width: 46%;
   height: 49%;
   border-radius: 50%;
-  margin-bottom: 6rem;
+  margin-bottom: 167px;
   background-image: url("https://res.cloudinary.com/dm63jyidg/image/upload/v1672883416/portfolio/gi7kdahadxluiogwuqvr.jpg");
   /* background-repeat: no-repeat, repeat;
   background-color: #cccccc; */
@@ -202,7 +202,7 @@ hr {
   transform: translateY(-2px);
   width: 1096px;
   position: absolute;
-  margin: 20rem 7rem 0 33rem;
+  margin: 16rem 7rem 0 33rem;
   padding: 1rem;
   border-radius: 50px;
   text-align: justify;
