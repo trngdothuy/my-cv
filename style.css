@@ -161,10 +161,10 @@ hr {
   /* height: 30%; */
   display: flex;
   flex-direction: column;
-  padding: 46px 20px 222px 35px;
+  padding: 45px 16px 241px 38px;  
   align-self: right;
   text-align: left;
-  margin-top: 70px;
+  margin-top: 47px;
 }
 
 .resume {
@@ -195,14 +195,22 @@ hr {
 }
 
 .description {
-  background-color: rgba(136, 136, 234, 0.3);
-  width: 110vw;
+  background-color: rgba(142, 185, 221, 0.7);
+  color: rgb(41 41 135);
+  /* color: white; */
+  box-shadow: 0 0 12px rgba(72, 156, 227, 0.7);
+  transform: translateY(-2px);
+  width: 1096px;
   position: absolute;
   margin: 20rem 7rem 0 33rem;
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 50px;
   text-align: justify;
   text-align-last: left;
+}
+
+.description:hover {
+  background-color: rgba(72, 156, 227, 0.9);
 }
 
 .box-with-padding {
@@ -270,4 +278,11 @@ td {
 
 .projects-column {
   flex: 0 0 45%; /* Each column takes 45% of the container's width */
+}
+
+.education-title {
+  line-height: 37px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
