@@ -157,6 +157,10 @@ hr {
   align-items: center;
 }
 
+.box-2-left {
+  margin-top: -34px;
+}
+
 .box-1-right {
   /* height: 30%; */
   display: flex;
@@ -164,16 +168,15 @@ hr {
   padding: 45px 16px 241px 38px;  
   align-self: right;
   text-align: left;
-  margin: 48px 0 154px 0;
+  margin: 18px 0 154px 0;
 }
 
 .box-1-left {
   display: flex;
   flex-direction: column;
   padding: 45px 16px 241px 38px;  
-  align-self: right;
   text-align: left;
-  margin-top: -59px;
+  margin-top: -97px;
 }
 
 .resume {
@@ -211,7 +214,7 @@ hr {
   transform: translateY(-2px);
   width: 1096px;
   position: absolute;
-  margin: 12rem 6rem 1rem 31rem;
+  margin: 9rem 6rem 0rem 31rem;
   padding: 1rem;
   border-radius: 50px;
   text-align: justify;
@@ -224,6 +227,7 @@ hr {
 
 .box-with-padding {
   padding: 8px 44px 0 46px;
+  margin-bottom: 32px;
 }
 
 .box-with-padding-right-side {
@@ -270,8 +274,8 @@ td {
 }
 
 .title {
-  font-size: 35px;
-  /* color: rgb(136 136 213); */
+  font-size: 40px;
+  margin: 3px;
   color: rgb(41 41 135);
 }
 
