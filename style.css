@@ -164,7 +164,16 @@ hr {
   padding: 45px 16px 241px 38px;  
   align-self: right;
   text-align: left;
-  margin-top: 12px;
+  margin: 48px 0 154px 0;
+}
+
+.box-1-left {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 16px 241px 38px;  
+  align-self: right;
+  text-align: left;
+  margin-top: -59px;
 }
 
 .resume {
@@ -202,7 +211,7 @@ hr {
   transform: translateY(-2px);
   width: 1096px;
   position: absolute;
-  margin: 16rem 7rem 0 33rem;
+  margin: 12rem 6rem 1rem 31rem;
   padding: 1rem;
   border-radius: 50px;
   text-align: justify;
